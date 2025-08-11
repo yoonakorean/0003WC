@@ -95,18 +95,19 @@
     const gameTitle = "0-4 單字聽力測驗";
 
     const questions = [
-      { word: "가루", korean: "粉", audio: "audio/000401W.mp3", choices: ["가루", "가로", "가류"] },
-      { word: "고모", korean: "姑姑", audio: "audio/000402W.mp3", choices: ["고모", "코모", "고무"] },
-      { word: "요가", korean: "瑜珈", audio: "audio/000403W.mp3", choices: ["요가", "유가", "요고"] },
-      { word: "고구마", korean: "地瓜", audio: "audio/000404W.mp3", choices: ["고구마", "고무마", "고고마"] },
-      { word: "카드", korean: "卡片", audio: "audio/000405W.mp3", choices: ["카드", "가드", "카르"] },
-      { word: "마이크", korean: "麥克風", audio: "audio/000406W.mp3", choices: ["마이크", "마이쿠", "매이크"] },
-      { word: "쿠키", korean: "餅乾", audio: "audio/000407W.mp3", choices: ["쿠키", "코키", "쿠기"] },
-      { word: "코", korean: "鼻子", audio: "audio/000408W.mp3", choices: ["코", "쿠", "고"] },
-      { word: "꼬리", korean: "尾巴", audio: "audio/000409W.mp3", choices: ["꼬리", "고리", "코리"] },
-      { word: "두꺼비", korean: "癩蛤蟆", audio: "audio/000410W.mp3", choices: ["두꺼비", "두커비", "두꼬미"] },
-      { word: "코끼리", korean: "大象", audio: "audio/000411W.mp3", choices: ["코끼리", "고끼리", "코키리"] },
-      { word: "꼬마", korean: "小不點", audio: "audio/000412W.mp3", choices: ["꼬마", "고마", "코마"] }
+      { "word": "거미", "korean": "蜘蛛", "audio": "audio/000301W.mp3", "choices": ["거미", "커미", "고미"] },
+      { "word": "거리", "korean": "距離", "audio": "audio/000302W.mp3", "choices": ["거리", "거니", "걸이"] },
+      { "word": "누구", "korean": "誰", "audio": "audio/000303W.mp3", "choices": ["누구", "느구", "누고"] },
+      { "word": "너구리", "korean": "狸貓", "audio": "audio/000304W.mp3", "choices": ["너구리", "노구리", "나구리"] },
+      { "word": "다리", "korean": "腿", "audio": "audio/000305W.mp3", "choices": ["다리", "다니", "달이"] },
+      { "word": "어디", "korean": "哪裡", "audio": "audio/000306W.mp3", "choices": ["어디", "어기", "오디"] },
+      { "word": "다리미", "korean": "熨斗", "audio": "audio/000307W.mp3", "choices": ["다리미", "다림이", "다이미"] },
+      { "word": "드라마", "korean": "電視劇", "audio": "audio/000308W.mp3", "choices": ["드라마", "들라마", "드라머"] },
+      { "word": "바다", "korean": "海", "audio": "audio/000309W.mp3", "choices": ["바다", "파다", "빠다"] },
+      { "word": "부부", "korean": "夫婦", "audio": "audio/000310W.mp3", "choices": ["부부", "푸부", "브부"] },
+      { "word": "비누", "korean": "肥皂", "audio": "audio/000311W.mp3", "choices": ["비누", "피누", "비노"] },
+      { "word": "바나나", "korean": "香蕉", "audio": "audio/000312W.mp3", "choices": ["바나나", "빠나나", "바나라"] }
+
     ];
 
     let shuffledQuestions = [...questions].sort(() => 0.5 - Math.random());
